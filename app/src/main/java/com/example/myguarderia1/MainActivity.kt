@@ -1,4 +1,4 @@
-package com.example.ejercicio2
+package com.example.myguarderia1
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -40,7 +40,7 @@ fun HomeScreen(navController: NavController) {
             .padding(16.dp),
         verticalArrangement = Arrangement.Center
     ) {
-        Text(text = "Bienvenido a la Guardería de Mascotas Oreo y Zoe", style = MaterialTheme.typography.headlineSmall)
+        Text(text = "Bienvenido a la Guardería de Mascotas", style = MaterialTheme.typography.headlineSmall)
         Spacer(modifier = Modifier.height(32.dp))
         Button(onClick = { navController.navigate("register_pet") }) {
             Text("Registrar Nueva Mascota")
